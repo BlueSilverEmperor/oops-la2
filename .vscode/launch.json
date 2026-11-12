@@ -1,0 +1,83 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Current JavaFX App",
+      "request": "launch",
+      "mainClass": "${fileBasenameNoExtension}",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "name": "Run SimpleBankingApp",
+      "request": "launch",
+      "mainClass": "SimpleBankingApp",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "name": "Run StudentRegistrationApp",
+      "request": "launch",
+      "mainClass": "StudentRegistrationApp",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "name": "Run SimpleCalculatorApp",
+      "request": "launch",
+      "mainClass": "SimpleCalculatorApp",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "name": "Run TemperatureConverterApp",
+      "request": "launch",
+      "mainClass": "TemperatureConverterApp",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "name": "Run StudentGradeCalculatorApp",
+      "request": "launch",
+      "mainClass": "StudentGradeCalculatorApp",
+      "preLaunchTask": "Compile JavaFX",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+      ],
+      "javaExec": "C:\\Program Files\\Java\\jre1.8.0_501\\bin\\java.exe",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": [
+    "."
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "C:/Program Files/Java/jre1.8.0_501/lib/ext/jfxrt.jar"
+  ],
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "C:/Program Files/Java/jre1.8.0_501",
+      "default": true
+    }
+  ]
+}
